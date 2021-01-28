@@ -1,0 +1,22 @@
+{
+  "name": "asset-management",
+  "version": "1.0.0",
+  "description": "WordPress plugin that facilitates the easy creation and curation of digital asset types and taxonomies.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galyonj/shrike.git"
+  },
+  "author": "John Galyon <galyon.jb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/galyonj/shrike/issues"
+  },
+  "homepage": "https://github.com/galyonj/shrike#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

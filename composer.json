@@ -1,0 +1,30 @@
+{
+	"name": "galyonj/shrike",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "John Galyon",
+			"email": "galyon.jb@gmail.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org",
+			"only": [
+				"wpackagist-plugin/*",
+				"wpackagist-theme/*"
+			]
+		}
+	],
+	"extra": {
+		"installer-paths": {
+			"plugins/{$name}/": [
+				"type:wordpress-plugin"
+			]
+		}
+	},
+	"require": {
+		"wpackagist-plugin/custom-post-type-ui": "^1.8"
+	}
+}
